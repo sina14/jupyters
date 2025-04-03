@@ -1,0 +1,16 @@
+# Correlation Analysis
+
+## Correlation Matrix
+
+                   Year         Month  Customers
+Year       1.000000e+00  1.344483e-14   0.862026
+Month      1.344483e-14  1.000000e+00   0.112953
+Customers  8.620264e-01  1.129529e-01   1.000000
+
+## Interpretation
+
+- Correlation between Year and Customers: 0.8620
+  - Strong positive correlation: Customer counts strongly increase over the years.
+
+- Correlation between Month and Customers: 0.1130
+  - Weak correlation: No strong linear relationship between month and customer counts.

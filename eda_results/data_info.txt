@@ -1,0 +1,19 @@
+Data shape: (144, 2)
+
+First 5 rows:
+         0      1
+0  1949-01  114.0
+1  1949-02  120.0
+2  1949-03  134.0
+3  1949-04   67.0
+4  1949-05  123.0
+
+Missing values:
+0    0
+1    4
+dtype: int64
+
+Data types:
+0     object
+1    float64
+dtype: object

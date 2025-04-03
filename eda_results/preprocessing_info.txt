@@ -1,0 +1,21 @@
+Preprocessing Steps:
+1. Renamed columns to Date and Customers
+2. Converted Date column to datetime format
+3. Filled missing values with the mean of the Customers column
+4. Extracted Year and Month from Date for additional analysis
+
+Before handling missing values:
+Missing values: {'Date': 0, 'Customers': 0, 'Year': 0, 'Month': 0}
+
+After handling missing values:
+Missing values: {'Date': 0, 'Customers': 0, 'Year': 0, 'Month': 0}
+
+Preprocessed data info:
+Shape: (144, 4)
+Columns: ['Date', 'Customers', 'Year', 'Month']
+Data types:
+Date         datetime64[ns]
+Customers           float64
+Year                  int32
+Month                 int32
+dtype: object
